@@ -1,0 +1,29 @@
+{
+  "name": "flapy_bird",
+"version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack",
+    "start-prod": "nodemon server.js",
+    "start-dev": "webpack-dev-server"
+  },
+  "author": "Ricardo Aranda",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.2",
+    "webpack-config": "^7.5.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1"
+  }
+}
